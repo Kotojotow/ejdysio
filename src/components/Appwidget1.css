@@ -1,0 +1,22 @@
+.container .label *{
+    margin: 20px;
+}
+
+.container .label button {
+    padding: 20px 20px;
+    width: 200px;
+    background-color: rgb(198, 156, 109); /* Jasnoniebieskie tło */
+    color: white; /* Biały tekst */
+    border: none; /* Usunięcie obramowania */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    font-size: 16px; /* Wielkość czcionki */
+    cursor: pointer; /* Kursor wskazujący przycisk */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.container .label button:hover {
+    background-color: rgb(167, 100, 25); /* Ciemniejszy niebieski przy najechaniu */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Cień dla dodania głębi */
+}
+

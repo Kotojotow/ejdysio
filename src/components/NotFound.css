@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+}
+
+.notfound{
+    display: flex;
+    justify-content: center;
+    height: 89vh;
+}
